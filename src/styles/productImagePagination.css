@@ -1,0 +1,35 @@
+.swiper3 .swiper-pagination,
+.swiper4 .swiper-pagination {
+    position: relative !important;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    min-width: 100px;
+    row-gap: 1000px;
+    overflow-x: auto;
+}
+
+.swiper4 .swiper-pagination-bullet {
+    background: transparent !important;
+    border-radius: 8px !important;
+    margin: 0 0.25rem !important;
+    overflow: hidden;
+    margin-top: 10px !important;
+    /* font-size: 30px !important;
+    border: 1px solid gray; */
+}
+
+.swiper4 .swiper-pagination-bullet-active {
+    border: 1px solid oklch(54.6% 0.245 262.881);
+    color: oklch(54.6% 0.245 262.881);
+}
+
+/* .swiper3 .swiper-pagination-bullet {
+    background-image: url("https://pagedone.io/asset/uploads/1700471851.png");
+    background-size: cover;
+    background-position: center;
+    min-width: 120px;
+    min-height: 120px;
+    border-radius: 0px;
+} */

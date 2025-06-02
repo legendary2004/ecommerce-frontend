@@ -1,0 +1,12 @@
+.nav-animate-style {
+    animation: collapsible-down 200ms ease-out;
+}
+
+@keyframes collapsible-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%
+  }
+}
